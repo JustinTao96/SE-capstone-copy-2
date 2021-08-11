@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid DISPLAY key - 123 instead of KEY",
+    "query": "In courses dataset courses, find entries whose Average is greater than 97; show Department and 123; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

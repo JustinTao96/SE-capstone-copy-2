@@ -1,0 +1,16 @@
+{
+    "title": "FILTER TEST: DEPARTMENT IS string AND UUID IS string",
+    "query": "In courses dataset querysuccesstest, find entries whose Department is \"aanb\" and UUID is \"31379\"; show Department, Average and UUID; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_dept": "aanb",
+                    "querysuccesstest_avg": 94.44,
+                    "querysuccesstest_uuid": "31379"
+                }
+            ]
+        }
+    }
+}

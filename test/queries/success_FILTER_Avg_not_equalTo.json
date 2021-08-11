@@ -1,0 +1,15 @@
+{
+    "title": "FILTER TEST: AVERAGE is NOT EQUAL TO number",
+    "query": "In courses dataset querysuccesstest, find entries whose Average is not equal to 94.44; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_dept": "anth",
+                    "querysuccesstest_avg": 76.25
+                }
+            ]
+        }
+    }
+}

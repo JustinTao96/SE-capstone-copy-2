@@ -1,0 +1,14 @@
+{
+    "title": "testing the use of ORDER and DISPLAY Keyword Instructor",
+    "query": "In courses dataset querysuccesstest, find entries whose Instructor is \"barker, john\"; show Instructor; sort in ascending order by Instructor.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_instructor": "barker, john"
+                }
+            ]
+        }
+    }
+}

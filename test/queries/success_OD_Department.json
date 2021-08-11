@@ -1,0 +1,17 @@
+{
+    "title": "testing the use of ORDER and DISPLAY Keyword Department",
+    "query": "In courses dataset querysuccesstest, find entries whose Department is \"aanb\"; show Department; sort in ascending order by Department.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_dept": "aanb"
+                },
+                {
+                    "querysuccesstest_dept": "aanb"
+                }
+            ]
+        }
+    }
+}

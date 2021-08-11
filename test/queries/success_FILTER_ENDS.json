@@ -1,0 +1,19 @@
+{
+    "title": "FILTER TEST: UUID ENDS WITH string",
+    "query": "In courses dataset querysuccesstest, find entries whose UUID ends with \"9\"; show Department and UUID; sort in ascending order by UUID.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_dept": "aanb",
+                    "querysuccesstest_uuid": "31379"
+                },
+                {
+                    "querysuccesstest_dept": "anth",
+                    "querysuccesstest_uuid": "25159"
+                }
+            ]
+        }
+    }
+}

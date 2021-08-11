@@ -1,0 +1,14 @@
+{
+    "title": "testing the use of ORDER and DISPLAY Keyword Pass",
+    "query": "In courses dataset querysuccesstest, find entries whose Pass is greater than 50; show Pass; sort in ascending order by Pass.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_pass": 149
+                }
+            ]
+        }
+    }
+}

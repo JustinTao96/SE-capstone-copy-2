@@ -1,0 +1,16 @@
+{
+    "title": "FILTER TEST: AVERAGE IS LESS THAN number AND UUID ENDS WITH string",
+    "query": "In courses dataset querysuccesstest, find entries whose Average is less than 90 and UUID ends with \"9\"; show Department, Average and UUID; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_dept": "anth",
+                    "querysuccesstest_avg": 76.25,
+                    "querysuccesstest_uuid": "25159"
+                }
+            ]
+        }
+    }
+}

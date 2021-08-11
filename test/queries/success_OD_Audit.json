@@ -1,0 +1,17 @@
+{
+    "title": "testing the use of ORDER and DISPLAY Keyword Audit",
+    "query": "In courses dataset querysuccesstest, find entries whose Audit is greater than 8; show Audit; sort in ascending order by Audit.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_audit": 9
+                },
+                {
+                    "querysuccesstest_audit": 9
+                }
+            ]
+        }
+    }
+}

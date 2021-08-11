@@ -1,0 +1,17 @@
+{
+    "title": "testing the use of ORDER and DISPLAY Keyword Title",
+    "query": "In courses dataset querysuccesstest, find entries whose Title is \"rsrch methdlgy\"; show Title; sort in ascending order by Title.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_title": "rsrch methdlgy"
+                },
+                {
+                    "querysuccesstest_title": "rsrch methdlgy"
+                }
+            ]
+        }
+    }
+}

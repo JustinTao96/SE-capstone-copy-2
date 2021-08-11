@@ -1,0 +1,19 @@
+{
+    "title": "SELECT dept, avg WHERE avg > 90",
+    "query": "In courses dataset querysuccesstest, find entries whose Average is greater than 90; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_dept": "aanb",
+                    "querysuccesstest_avg": 94.44
+                },
+                {
+                    "querysuccesstest_dept": "aanb",
+                    "querysuccesstest_avg": 94.44
+                }
+            ]
+        }
+    }
+}

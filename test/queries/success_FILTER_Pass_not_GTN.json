@@ -1,0 +1,19 @@
+{
+    "title": "FILTER TEST: PASS is NOT GREATER THAN number",
+    "query": "In courses dataset querysuccesstest, find entries whose Pass is not greater than 9; show Department and Pass; sort in ascending order by Pass.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_dept": "aanb",
+                    "querysuccesstest_pass": 9
+                },
+                {
+                    "querysuccesstest_dept": "aanb",
+                    "querysuccesstest_pass": 9
+                }
+            ]
+        }
+    }
+}

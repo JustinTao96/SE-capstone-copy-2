@@ -1,0 +1,15 @@
+{
+    "title": "SELECT dept, avg WHERE avg < 80",
+    "query": "In courses dataset querysuccesstest, find entries whose Average is less than 50; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_dept": "anth",
+                    "querysuccesstest_avg": 76.25
+                }
+            ]
+        }
+    }
+}

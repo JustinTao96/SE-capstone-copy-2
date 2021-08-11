@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid dataset key - dataset has a 1 at the end of it",
+    "query": "In courses dataset1 courses, find entries whose Average is greater than 97; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

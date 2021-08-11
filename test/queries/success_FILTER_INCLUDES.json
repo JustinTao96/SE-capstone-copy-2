@@ -1,0 +1,19 @@
+{
+    "title": "FILTER TEST: ID INCLUDES string",
+    "query": "In courses dataset querysuccesstest, find entries whose ID includes \"aanb\"; show Department and ID; sort in ascending order by ID.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_dept": "aanb",
+                    "querysuccesstest_id": "504"
+                },
+                {
+                    "querysuccesstest_dept": "aanb",
+                    "querysuccesstest_id": "504"
+                }
+            ]
+        }
+    }
+}

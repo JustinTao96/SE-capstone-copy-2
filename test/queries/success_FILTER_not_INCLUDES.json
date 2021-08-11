@@ -1,0 +1,15 @@
+{
+    "title": "FILTER TEST: ID does not INCLUDE string",
+    "query": "In courses dataset querysuccesstest, find entries whose ID does not include \"aanb\"; show Department and ID; sort in ascending order by ID.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_dept": "anth",
+                    "querysuccesstest_id": "210"
+                }
+            ]
+        }
+    }
+}

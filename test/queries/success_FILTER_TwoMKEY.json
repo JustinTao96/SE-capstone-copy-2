@@ -1,0 +1,26 @@
+{
+    "title": "FILTER TEST: AVERAGE IS LESS THAN number AND PASS IS GREATER THAN number",
+    "query": "In courses dataset querysuccesstest, find entries whose Average is less than 95 and Pass is greater than 9; show Department, Average and Pass; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_dept": "anth",
+                    "querysuccesstest_avg": 76.25,
+                    "querysuccesstest_pass": 149
+                },
+                {
+                    "querysuccesstest_dept": "aanb",
+                    "querysuccesstest_avg": 94.44,
+                    "querysuccesstest_pass": 9
+                },
+                {
+                    "querysuccesstest_dept": "aanb",
+                    "querysuccesstest_avg": 94.44,
+                    "querysuccesstest_pass": 9
+                }
+            ]
+        }
+    }
+}

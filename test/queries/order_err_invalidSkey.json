@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid ORDER key - DEPARTMENT instead of department",
+    "query": "In courses dataset courses, find entries whose Average is greater than 97; show Department and Average; sort in ascending order by DEPARTMENT.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

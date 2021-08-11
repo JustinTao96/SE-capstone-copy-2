@@ -1,0 +1,15 @@
+{
+    "title": "FILTER TEST: UUID DOES NOT END WITH string",
+    "query": "In courses dataset querysuccesstest, find entries whose UUID does not end with \"9\"; show Department and UUID; sort in ascending order by UUID.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_dept": "aanb",
+                    "querysuccesstest_uuid": "31380"
+                }
+            ]
+        }
+    }
+}

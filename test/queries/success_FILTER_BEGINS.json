@@ -1,0 +1,19 @@
+{
+    "title": "FILTER TEST: TITLE BEGINS WITH string",
+    "query": "In courses dataset querysuccesstest, find entries whose Title begins with \"rsr\"; show Department and Title; sort in ascending order by Title.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_dept": "aanb",
+                    "querysuccesstest_title": "rsrch methdlgy"
+                },
+                {
+                    "querysuccesstest_dept": "aanb",
+                    "querysuccesstest_title": "rsrch methdlgy"
+                }
+            ]
+        }
+    }
+}

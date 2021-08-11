@@ -1,0 +1,14 @@
+{
+    "title": "testing the use of ORDER and DISPLAY Keyword UUID",
+    "query": "In courses dataset querysuccesstest, find entries whose UUID is \"31379\"; show UUID; sort in ascending order by UUID.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_uuid": "31379"
+                }
+            ]
+        }
+    }
+}

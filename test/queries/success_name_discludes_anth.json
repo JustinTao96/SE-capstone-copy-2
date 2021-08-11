@@ -1,0 +1,19 @@
+{
+    "title": "SELECT dept, avg WHERE avg > 50",
+    "query": "In courses dataset querysuccesstest, find entries whose Department is \"anth\"; show Department and ID; sort in ascending order by ID.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_dept": "aanb",
+                    "querysuccesstest_id": 31379
+                },
+                {
+                    "querysuccesstest_dept": "aanb",
+                    "querysuccesstest_id": 31380
+                }
+            ]
+        }
+    }
+}

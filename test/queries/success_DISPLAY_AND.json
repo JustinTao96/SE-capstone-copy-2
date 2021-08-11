@@ -1,0 +1,19 @@
+{
+    "title": "testing the use of AND Keyword in DISPLAY",
+    "query": "In courses dataset querysuccesstest, find entries whose ID is \"504\"; show ID and UUID; sort in ascending order by UUID.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_id": "504",
+                    "querysuccesstest_uuid": "31379"
+                },
+                {
+                    "querysuccesstest_id": "504",
+                    "querysuccesstest_uuid": "31380"
+                }
+            ]
+        }
+    }
+}

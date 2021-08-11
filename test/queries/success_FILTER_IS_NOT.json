@@ -1,0 +1,15 @@
+{
+    "title": "FILTER TEST: DEPARTMENT IS NOT string",
+    "query": "In courses dataset querysuccesstest, find entries whose Department not is \"aanb\"; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_dept": "anth",
+                    "querysuccesstest_avg": 76.25
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "title": "FILTER TEST: DEPARTMENT IS string",
+    "query": "In courses dataset querysuccesstest, find entries whose Department is \"aanb\"; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "querysuccesstest_dept": "aanb",
+                    "querysuccesstest_avg": 94.44
+                },
+                {
+                    "querysuccesstest_dept": "aanb",
+                    "querysuccesstest_avg": 94.44
+                }
+            ]
+        }
+    }
+}
